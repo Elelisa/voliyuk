@@ -1,0 +1,109 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Beranda - Reservasi Lapangan Voli</title>
+		<link rel="stylesheet" type="text/css" href="styles/stylemain.css">
+		<style> 
+		@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Lobster&family=Merienda+One&display=swap');
+		*{
+			margin:0 ;
+			padding:0;
+		}
+		body{
+			display: flex;
+			background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("styles/voli2.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+		}
+		.teks{
+			width:80%;
+			color:#fff;
+			top: 50%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+			text-align:center;
+		}
+		.teks p{
+			color: #fff;
+			font-size:15px;
+			font-family: 'Barlow Condensed';
+		}
+		.teks h1{
+			font-size: 70px;
+			font-family: 'Lobster';
+		}
+		.masukBtn {
+			display:flex;
+			height: 25px;
+			width:100px;
+			text-decoration: none;
+			color:#fff;
+			padding:12px 34px;
+			background:#0d0052;
+			position:relative;
+			margin-top: 450px;
+			margin-left:auto;
+			margin-right:auto;
+		}
+		.masukBtn:hover{
+			background:#907df5;
+			transition:0.2s;
+		}
+		.dropdown{
+			float: left;
+			overflow: hidden;
+		}
+		.dropdown .menu{
+			font-size: 16px;
+			border: none;
+			outline: none;
+			color: #fff;
+			background-color:#000000;
+			padding: 14px 14px;
+			font-family: 'Barlow Condensed';
+			margin: 0;
+			text-align: left;
+		}
+		.daftarMenu {
+			display: none;
+			position: absolute;
+			background-color: #000000;
+			min-width: 160px;
+			z-index: 1;
+		}
+		.daftarMenu a {
+			float: none;
+			color: #fff;
+			display: block;
+			
+		}
+		.dropdown:hover .daftarMenu {
+			display: block;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="judul">
+				<h1>Voliyuk</h1>
+			</div>
+			<div class="navbar">
+				<div class="dropdown">
+				<button class="menu">Menu</button>
+					<div class="daftarMenu">
+					<a href="aboutus.html" >About Us</a>
+					<a href="contact.html" >Contact Us</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="teks">
+			<p> Mau main voli tapi ga ada lapangan?</p>
+			<h1> Voliyuk </h1>
+			<p> cari lapangan untuk main voli kapanpun dan dimanapun untuk kamu yang hobi main voli</p>
+		</div>
+		<a href="login.php" class="masukBtn"> Masuk Voliyuk </a>
+	</body>
+</html>

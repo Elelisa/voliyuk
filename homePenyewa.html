@@ -1,0 +1,75 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Beranda - Reservasi Lapangan Voli</title>
+		<link rel="stylesheet" type="text/css" href="styles/stylemain.css">
+		<style> 
+		@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Lobster&family=Merienda+One&display=swap');
+		*{
+			margin:0 ;
+			padding:0;
+		}
+		body{
+			display: flex;
+			background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url("styles/voli2.jpg");
+			background-repeat: no-repeat;
+			background-position: center;
+			background-size: cover;
+			justify-content:center;
+		}
+		.teks{
+			width:80%;
+			color:#fff;
+			top: 40%;
+			left: 50%;
+			position: absolute;
+			transform: translate(-50%,-50%);
+			text-align:center;
+		}
+		.teks p{
+			color: #fff;
+			font-size:15px;
+			font-family: 'Barlow Condensed';
+		}
+		.teks h1{
+			font-size: 70px;
+			font-family: 'Lobster';
+		}
+		.detailsBtn {
+			display:flex;
+			height: 25px;
+			width:130px;
+			text-decoration: none;
+			color:#fff;
+			padding:12px 34px;
+			background:#edb200;
+			position:relative;
+			justify-content:center;
+			margin-top: 350px;
+			margin-left:30px;
+			margin-right:30px;
+		}
+		.detailsBtn:hover{
+			background:#ffd466;
+			transition:0.2s;
+		}
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="judul">
+				<h1>Voliyuk</h1>
+			</div>
+			<div class="navbar">
+			<a href="beranda.html" >Keluar</a>
+			</div>
+		</div>
+		<div class="teks">
+			<h1> Voliyuk </h1>
+			<p> temukan lapangan yang cocok untuk kamu dan temen-temen main voli, sekarang juga!</p>
+		</div>
+			<a href="formsewa.php" class="detailsBtn">Reservasi Sekarang</a>
+			<a href="infoTrx.php" class="detailsBtn">Riwayat Pemesanan</a>
+			<a href="formbeli.php" class="detailsBtn">Katalog voliyuk </a>
+	</body>
+</html>
